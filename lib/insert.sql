@@ -4,7 +4,7 @@ INSERT INTO series (title, author_id, subgenre_id) VALUES ("Second Series", 2, 2
 INSERT INTO subgenres (name) VALUES ("medieval");
 INSERT INTO subgenres (name) VALUES ("space opera");
 
-INSERT INTO authors (name) VALUES ("George R. R. Martin");
+INSERT INTO authors (name) VALUES ("George R. R. Martin);
 INSERT INTO authors (name) VALUES ("Second Author");
 
 INSERT INTO books (title, year, series_id) VALUES ("Game of Thrones", 1996, 1);

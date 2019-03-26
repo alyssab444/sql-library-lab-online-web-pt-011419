@@ -1,5 +1,5 @@
 def select_books_titles_and_years_in_first_series_order_by_year
-  "SELECT title, year FROM books ORDER BY year  WHERE ";
+  "SELECT title, year FROM books WHERE ORDER BY year";
   SELECT column_name, column_name
 FROM table_name
 ORDER BY column_name ASC|DESC, column_name ASC|DESC;

@@ -1,8 +1,5 @@
 def select_books_titles_and_years_in_first_series_order_by_year
-  "SELECT title, year FROM books WHERE ORDER BY year";
-  SELECT column_name, column_name
-FROM table_name
-ORDER BY column_name ASC|DESC, column_name ASC|DESC;
+  "SELECT title, year FROM books WHERE series_id = 1 ORDER BY year";
 end
 
 def select_name_and_motto_of_char_with_longest_motto
